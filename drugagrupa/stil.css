@@ -1,0 +1,125 @@
+@font-face{
+    font-family: 'HP';
+    src: url('harry.TTF');
+}
+body{
+    background-image: url('footprints.png');
+    background-position: 10% 0%;
+    background-repeat: repeat-y;
+    background-color: burlywood;
+}
+#omotac{
+    position: relative;
+    width: 70%;
+    height: 800px;
+    margin: auto;
+    margin-bottom: 100px;
+    
+}
+div#omotac h1{
+    font-family: 'HP';
+    font-size: 80px;
+    color: goldenrod;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 2px 2px rgb(90, 65, 0);
+}
+div#omotac div{
+    position: absolute;
+    width: 44%;
+    height: 350px;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-size: 20px;
+}
+h2.house{
+    text-align: center;
+    margin-top: 5px;
+}
+h2.house::first-letter{
+    font-family: 'HP';
+    font-size: 70px;
+    text-transform: uppercase;
+}
+#Grifindor{
+    background-image: linear-gradient(60deg, red, rgb(165, 0, 0), red, rgb(165, 0, 0), red, rgb(165, 0, 0));
+    color: gold;
+    text-align: center;
+    top: 100px;
+    left: 5%;
+}
+#Grifindor table{
+    margin: auto;
+    border: 1px solid gold;
+    border-radius: 5%;
+}
+#Grifindor tr:nth-child(4){
+    color: black;
+    text-decoration: line-through;
+}
+#Sliterin{
+    background-image: linear-gradient(120deg, green, rgb(0, 80, 0), green, rgb(0, 80, 0), green, rgb(0, 80, 0));
+    color: silver;
+    top:100px;
+    left: 50%;
+}
+#Sliterin ul ul{
+    list-style-image: url('snitch.png');
+
+}
+#haflpaf{
+    background-image: linear-gradient(-60deg, yellow, darkgoldenrod, yellow, darkgoldenrod, yellow, darkgoldenrod);
+    color: black;
+    top: 460px;
+    left: 5%;
+}
+#haflpaf p{
+    padding-left: 25px;
+    padding-right: 20px;
+}
+p a:link, p a:visited{
+    color: inherit;
+    text-decoration: none;
+}
+p a:hover{
+    cursor: help;
+}
+#Ravenclaw{
+    background-image: linear-gradient(-120deg, royalblue, #222f5b, royalblue, #222f5b, royalblue, #222f5b);
+    color: rgb(205, 127, 50);
+    top: 460px;
+    left: 50%;
+    text-align: center;
+}
+figure{
+    font-style: italic;
+    font-weight: bold;
+}
+#Ravenclaw img{
+    height: 150px;
+    width: 150px;
+}
+#houses{
+    top: 390px;
+    left: 43%;
+}
+#houses img{
+    width:30%;
+    height: 40%;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    color: maroon;
+    font-size: 20px;
+}
+footer a:link, a:visited{
+    color: maroon;
+    text-decoration: none;
+}
+footer a:hover{
+    border-radius: 5px;
+    font-size: 25px;
+    color: burlywood;
+    background-color: maroon;
+}
