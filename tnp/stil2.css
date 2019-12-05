@@ -1,0 +1,44 @@
+body{
+    background-image: url('IMG_20180408_120319.jpg');
+    background-repeat: repeat;
+    font-family: monospace;
+    font-size: 18px;
+}
+div#header{
+    height: 150px;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    background-color: rgba(192, 192, 192, 20%);
+    border: 1px solid silver;
+    border-radius: 15px 15px 15px 15px;
+}
+div#omotac{
+    position: relative;
+    height: 500px;
+    margin: auto;
+    width: 80%;
+}
+div#omotac div#levi{
+    position: absolute;
+    left: 2%;
+    top: 10px;
+    width: 45%;
+    height: 250px;
+    background-color: rgba(192, 192, 192, 20%);
+    padding-top: 10px;
+    padding: 5px;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid silver;
+}
+div#omotac div#levi dl dt{
+    font-weight: bold;
+}
+#levi dl a:link, a:visited{
+    text-decoration: none;
+    color: rgb(17, 19, 75);
+}
+#levi dl a:hover{
+    font-size: 101%;
+}
